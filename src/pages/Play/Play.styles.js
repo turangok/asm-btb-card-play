@@ -9,12 +9,12 @@ export const StyledPlay = styled.div`
 `;
 
 export const StyledContainer = styled.div`
-  background: ${(p) => p.theme.sapphire};
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 50rem;
-  color: ${(p) => p.theme.amaranth};
+  justify-content: center;
+  background: ${(p) => p.theme.sapphire};
+  max-width: 50rem;
+  width: 60%;
 `;
 
 export const StyledPoints = styled.h5`
