@@ -6,7 +6,7 @@ export const ACTION_TYPES = {
 }
 
 export const initialState = {
-    scoreBoard: [{ name: "John", score: { last: 10, high: 20 } }]
+    scoreBoard: [{ name: "John Sample", score: { last: 10, high: 20 } }]
 }
 const scoreBoardReducer = (state = initialState, action) =>
 

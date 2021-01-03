@@ -3,7 +3,7 @@ import { Card, GameResult } from 'components';
 import { useDispatch, useSelector } from 'react-redux';
 import { updateScoreBoard } from 'store/actions/scoreBoardActions';
 import { useHistory } from 'react-router-dom';
-import { CARDS as cards } from '../../config/constants';
+import { CARDS as cards } from 'config/constants';
 
 import { StyledPlay, StyledContainer, StyledPoints } from './Play.styles';
 

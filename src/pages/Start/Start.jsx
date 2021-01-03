@@ -1,12 +1,11 @@
-import { Input } from '../../components';
-import { Button } from 'components';
+import { Input, Button } from 'components';
 import {
   StyledHeader,
   StyledForm,
   StyledError,
   StyledWrapper,
 } from './Start.styles';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 
@@ -14,7 +13,6 @@ import { loginUser } from 'store/actions/userActions';
 
 const Start = () => {
   const dispatch = useDispatch();
-  const currentUser = useSelector((state) => state.user);
   const history = useHistory();
   const { register, handleSubmit, errors } = useForm();
 

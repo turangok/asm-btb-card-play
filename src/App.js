@@ -2,7 +2,7 @@ import React from 'react';
 import Start from 'pages/Start';
 import Play from 'pages/Play';
 import ScoreBoard from 'pages/ScoreBoard';
-import { NavBar } from './components'
+import { NavBar } from 'components'
 
 import {
   BrowserRouter as Router,
